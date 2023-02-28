@@ -543,10 +543,10 @@ section {
 
   .hero h2 {
     font-size: 24px;
+    color: #012970;
   }
 
   .hero .hero-img img {
-
     width: 100%;
   }
 }
