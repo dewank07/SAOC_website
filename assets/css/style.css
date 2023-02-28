@@ -139,7 +139,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: var(--main-color);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -148,12 +148,12 @@ section {
 
 .back-to-top i {
   font-size: 24px;
-  color: #fff;
+  color: var(--dark-bg);
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #6776f4;
+  background: var(--second-color);
   color: #fff;
 }
 
@@ -266,7 +266,7 @@ section {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #5969f3;
+  background: var(--second-color);
 }
 
 .navbar .dropdown ul {
@@ -482,6 +482,10 @@ section {
   /* box-shadow: 0px 5px 30px rgba(241, 218, 65, 0.4); */
 }
 
+.hero .btn-get-started:hover{
+  background: var(--second-color);
+}
+
 .hero .btn-get-started span {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
@@ -528,6 +532,9 @@ section {
 @media (max-width: 768px) {
   .hero {
     text-align: center;
+    background: none;
+    /* background: url(/assets/img/bg-2.png);
+    background-size: cover; */
   }
 
   .hero h1 {
@@ -539,6 +546,7 @@ section {
   }
 
   .hero .hero-img img {
+
     width: 100%;
   }
 }
@@ -585,6 +593,10 @@ section {
   color: #fff;
   background: var(--main-color);
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+}
+
+.about .btn-read-more:hover{
+  background: var(--second-color);
 }
 
 .about .btn-read-more span {
@@ -701,7 +713,7 @@ section {
 }
 
 .features .feature-box:hover i {
-  background: #4154f1;
+  background: var(--main-color);
   color: #fff;
 }
 
@@ -1699,7 +1711,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #4154f1;
+  background: var(--main-color);
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1708,7 +1720,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #5969f3;
+  background: var(--second-color);
 }
 
 @-webkit-keyframes animate-loading {
@@ -2330,7 +2342,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #012970;
+  color: var(--main-color);
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -2399,7 +2411,7 @@ section {
 }
 
 .footer .footer-top .footer-links ul a:hover {
-  color: #4154f1;
+  color: var(--main-color);
 }
 
 .footer .footer-top .footer-contact p {
