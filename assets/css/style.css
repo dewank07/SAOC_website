@@ -532,9 +532,8 @@ section {
 @media (max-width: 768px) {
   .hero {
     text-align: center;
-    background: none;
-    /* background: url(/assets/img/bg-2.png);
-    background-size: cover; */
+    background: url(/assets/img/moboView.png);
+    background-size: cover;
   }
 
   .hero h1 {
@@ -543,7 +542,6 @@ section {
 
   .hero h2 {
     font-size: 24px;
-    color: #012970;
   }
 
   .hero .hero-img img {
